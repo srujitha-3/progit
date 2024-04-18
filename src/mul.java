@@ -1,8 +1,9 @@
 public class mul {
-    public static void main(String[] args){
-        int a=2;
-        int b=3;
-        int c=a*b;
-        System.out.println("the multiplication of numbers is:"+c);
+     void print(int table) {
+
+        System.out.println("the multiplication table");
+        for(int i=1;i<=10;i++){
+            System.out.printf("%d*%d=%d",table,i,table*i).println();
+        }
     }
 }
