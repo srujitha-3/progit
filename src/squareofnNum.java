@@ -19,5 +19,10 @@ public class squareofnNum {
                 System.out.println(b);
             }
         }
+        System.out.println("square of first n numbers");
+        for(int k=0;k<=n;k++){
+            int c=k*k;
+            System.out.println(c);
+        }
     }
 }
